@@ -13,15 +13,18 @@ Alex's hope:
 * [Introduction to Remote Data Science](https://courses.openmined.org/courses/introduction-to-remote-data-science)
 * [PYSYFT V0.5.0 and RASPBERRY PI 4](https://blog.openmined.org/installing-pysyft-0-5-0rc1-on-a-raspberry-pi-4/)
 ## PySyft 0.2.x
-    '''
     import torch
     hook = sy.TorchHook(torch) 
-    '''
+Dependency
+
+
 ## PySyft >= 0.3.x
-    We don't need hook and the example are as follows:
-    '''
+We don't need hook and the example are as follows:
+
     alice = sy.VirtualMachine(name="alice")
     bob = sy.VirtualMachine(name= 'bob')
-    '''
+
 ## requirements.txt
-    '''pip freeze > requirements.txt'''
+    <!-- '''pip freeze > requirements.txt''' -->
+    pip install -r requirements.txt
+    pip install syft==0.5.0
