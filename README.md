@@ -27,6 +27,13 @@ Jupyter notebooks are located in "demo_Pysyft_0.5". Before you move to the locat
 * Install dependencies  
     ```pip install -r requirements.txt```  
     ```pip install syft==0.5.0``` 
+* Move to "demo_Pysyft_0.5"
+* Please do not run ```duet``` blocks from ```Duet_FL_Data_Owner_1_Alice``` and ```Duet_FL_Data_Owner_2_Bob``` "Simultaneously".  
+    The sequence of runs is:  
+    * Go to ```Duet_FL_Data_Owner_1_Alice``` file and run its ```duet``` block
+    * Back to ```Duet_FL_Data_Scientist``` file and run its ```duet1``` block
+    * Go to ```Duet_FL_Data_Owner_2_Bob``` file and run its ```duet``` block
+    * Back to ```Duet_FL_Data_Scientist``` file and run  its ```duet2``` block
 
 ### 0.5.0 with RASPBERRY PI 4
 Implementation plan has not yet started
