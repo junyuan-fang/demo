@@ -10,18 +10,23 @@ Advantanges of ML with Federated Learning:
 Alex's hope:  
 "Real network of 5-10 Raspberry PIs"
 ### 0.2.0
-The first demo version to be implemented is [PySyft 0.2.0](https://github.com/OpenMined/PySyft/tree/0.2.0). Because the environment used by tutorial  [ENCRYPTED TRAINING WITH PYTORCH + PYSYFT](https://blog.openmined.org/encrypted-training-on-mnist/) is  0.2.x.
+The first demo version to be implemented is [PySyft 0.2.0](https://github.com/OpenMined/PySyft/tree/0.2.0). Because the environment used by the tutorial  [ENCRYPTED TRAINING WITH PYTORCH + PYSYFT](https://blog.openmined.org/encrypted-training-on-mnist/) is  0.2.x.
 
 [PySyft 0.2.0 branch](https://github.com/OpenMined/PySyft/tree/0.2.0)  
 [PySyft 0.2.0 installation instruction](https://pysyft.readthedocs.io/en/latest/installing.html#id2)
 
 However the 0.2.0 version is abandoned, so let us move to 0.5.0.(Implementation's ideas are still the same)
 ### 0.5.0
-Acording to [PYSYFT V0.5.0 and RASPBERRY PI 4](https://blog.openmined.org/installing-pysyft-0-5-0rc1-on-a-raspberry-pi-4/). The 0.5.0 an be deployed on ```Raspberry Pi 4``` through the tutorial.
+According to [PYSYFT V0.5.0 and RASPBERRY PI 4](https://blog.openmined.org/installing-pysyft-0-5-0rc1-on-a-raspberry-pi-4/). The 0.5.0 can be deployed on ```Raspberry Pi 4``` through the tutorial.
 
-Jupyter notebooks are located in "demo_Pysyft_0.5". Before you move to the location, please set up upir environment:  
-```pip install -r requirements.txt```  
-```pip install syft==0.5.0``` 
+Jupyter notebooks are located in "demo_Pysyft_0.5". Before you move to the location, please set up your environment first:  
+
+* We suggest you install conda/miniconda
+* Create a conda virtual environment
+* Move to conda virtual environment
+* Install dependencies  
+    ```pip install -r requirements.txt```  
+    ```pip install syft==0.5.0``` 
 
 ### 0.5.0 with RASPBERRY PI 4
 Implementation plan has not yet started
